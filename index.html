@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./public/favicon.ico">
+    <title>Guess the word</title>
+    <link rel="stylesheet" href="src/app.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css"/>
+  </head>
+  
+  <body>
+    <div id="app" data-theme="dark">
+      <div class="top-bar">
+        <p class="game-name">
+          <span>Guess</span>
+          <span>The</span>
+          <span>Word</span>
+        </p>
+      </div>
+      <div class="content">
+        <div id="attempt-panel">
+        </div>
+
+        <div id="keyboard">
+          <div class="keyboard-row">
+            <button class="key" id="q"><p>Q</p></button>
+            <button class="key" id="w"><p>W</p></button>
+            <button class="key" id="e"><p>E</p></button>
+            <button class="key" id="r"><p>R</p></button>
+            <button class="key" id="t"><p>T</p></button>
+            <button class="key" id="y"><p>Y</p></button>
+            <button class="key" id="u"><p>U</p></button>
+            <button class="key" id="i"><p>I</p></button>
+            <button class="key" id="o"><p>O</p></button>
+            <button class="key" id="p"><p>P</p></button>
+          </div>
+          <div class="keyboard-row">
+            <button class="key" id="a"><p>A</p></button>
+            <button class="key" id="s"><p>S</p></button>
+            <button class="key" id="d"><p>D</p></button>
+            <button class="key" id="f"><p>F</p></button>
+            <button class="key" id="g"><p>G</p></button>
+            <button class="key" id="h"><p>H</p></button>
+            <button class="key" id="j"><p>J</p></button>
+            <button class="key" id="k"><p>K</p></button>
+            <button class="key" id="l"><p>L</p></button>
+          </div>
+          <div class="keyboard-row">
+            <button id="enter-btn" class="action-key">
+              <i class="ph ph-arrow-right"></i>
+            </button>
+            <button class="key" id="z"><p>Z</p></button>
+            <button class="key" id="x"><p>X</p></button>
+            <button class="key" id="c"><p>C</p></button>
+            <button class="key" id="v"><p>V</p></button>
+            <button class="key" id="b"><p>B</p></button>
+            <button class="key" id="n"><p>N</p></button>
+            <button class="key" id="m"><p>M</p></button>
+            <button id="delete-btn" class="action-key">
+              <i class="ph ph-backspace"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
